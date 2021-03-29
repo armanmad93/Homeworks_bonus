@@ -5,23 +5,25 @@ public class Main {
 
         Convector convector = new Convector();
 
-        String word = convector.convect(9);
+        String word = convector.convect((long) 9);
         System.out.println(word);
-        word = convector.convect(12);
+        word = convector.convect((long) 12);
         System.out.println(word);
-        word = convector.convect(159);
+        word = convector.convect((long) 159);
         System.out.println(word);
-        word = convector.convect(2768);
+        word = convector.convect((long) 2768);
         System.out.println(word);
-        word = convector.convect(13496);
+        word = convector.convect((long) 13496);
         System.out.println(word);
-        word = convector.convect(115915);
+        word = convector.convect((long) 115915);
         System.out.println(word);
-        word = convector.convect(1369875);
+        word = convector.convect((long) 1369875);
         System.out.println(word);
-        word = convector.convect(12486502);
+        word = convector.convect((long) 12486502);
         System.out.println(word);
-        word = convector.convect(159357155);
+        word = convector.convect((long) 159357155);
+        System.out.println(word);
+        word = convector.convect((long) 17000);
         System.out.println(word);
 
     }
